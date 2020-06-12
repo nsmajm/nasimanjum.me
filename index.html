@@ -1,17 +1,548 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasim Anjum</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    </link>
     <link rel="stylesheet" href="css/style.css">
+    <title>Nasim Anjum!</title>
 </head>
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand" href="#">Nasim <span class="active">Anjum</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-1 mt-5">
+                        <div class="intro_info">
+                            <h3>Hello there...</h3>
+                            <h1 class="name_title">Nasim <span class="active">Anjum</span></h1>
+                            <span id="typed"></span>
+                            <p class="mt-2">I am an enthusiastic learner looking for opportunities to learn and expand
+                                my
+                                skills
+                                and knowledge related to Software Engineering.
+                            </p>
+                            <button class="btn btn-cv">View CV</button>
+                            <button class="btn btn-cv">Download CV</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mt-5">
+                        <img class="main_image  rounded-circle" src="img/naism_anjum.JPG" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about me" class="mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">`
+                        <h1 class="text-center about_title">About <span class="active">Me</span></h1>
+                        <div class="section_divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 text-center about_box">
+                                <div class="icon mb-3">
+                                    <span class="iconify ml-2 mt-2" data-icon="mdi:speedometer"
+                                        data-inline="false"></span>
+                                </div>
+
+                                <h4>Fast</h4>
+                                <p>Fast load times and lag free interaction, my highest priority.
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-center about_box">
+                                <div class="icon mb-3">
+                                    <span class="iconify ml-2 mt-2" data-icon="mdi:responsive"
+                                        data-inline="false"></span>
+                                </div>
+
+                                <h4>Responsive</h4>
+                                <p>My layouts will work on any device, big or small.
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-center about_box">
+                                <div class="icon mb-3">
+                                    <span class="iconify ml-2 mt-2" data-icon="mdi:view-quilt"
+                                        data-inline="false"></span>
+                                </div>
+
+                                <h4>Intuitive</h4>
+                                <p>Strong preference for easy to use, intuitive UX/UI.
+                                </p>
+                            </div>
+                            <div class="col-md-6 text-center about_box">
+                                <div class="icon mb-3">
+                                    <span class="iconify ml-2 mt-2" data-icon="mdi:react" data-inline="false"></span>
+                                </div>
+
+                                <h4>Dynamic</h4>
+                                <p style="font-size: 15px;">Websites don't have to be static, I love making pages come
+                                    to life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="mt-4">I'M Nasim Anjum</h3>
+                        <p class="sub-title">A <span class="active">Full Stack Web Developer</span> based in Bangladesh
+                        </p>
+                        <p style="text-align: justify;">I'm highly passionate about writing code, following good
+                            practices and top-notch technologies. I am committed to creating beautiful easy-to-use
+                            applications based on client requirements. I am constantly innovating and learning new
+                            technologies.
+                            <br>
+                            My skills Includes :
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="ml-auto">
+                                        <li>Html 5</li>
+                                        <li>Css3</li>
+                                        <li>Javascript</li>
+                                        <li>Jquery</li>
+                                        <li>Express js</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="ml-auto">
+                                        <li>React Js</li>
+                                        <li>Php</li>
+                                        <li>Laravel</li>
+                                        <li>Mysql</li>
+                                        <li>Mongodb<</li> </ul> </div> </div> I'm passionate about quality and
+                                                maintainability when it comes to code and application architecture. <ul
+                                                class="social-block mt-3">
+                                        <li>
+                                            <a href="http://fb.com/nasim.anjum2">
+                                                <span class="iconify icon-social" data-icon="mdi:facebook"
+                                                    data-inline="false"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="iconify icon-social" data-icon="mdi:gmail"
+                                                    data-inline="false"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="iconify icon-social" data-icon="mdi:google-plus"
+                                                    data-inline="false"></span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <span class="iconify icon-social" data-icon="mdi:twitter"
+                                                    data-inline="false"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="iconify icon-social" data-icon="mdi:facebook-workplace"
+                                                    data-inline="false"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="education_experience" class="mt-5 ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-6 mt-5 mb-5">
+
+                        <h1 class="text-center active">Education</h1>
+                        <ul class="timeline">
+                            <li>
+                                <a target="_blank" href="https://www.totoprayogo.com/#">
+                                    Software Engineering
+                                </a>
+                                <a href="#" class="float-right">january 2015 – December 2018</a>
+                                <p>Software Engineering
+                                </p>
+                            </li>
+                            <li>
+                                <a href="#">Gangopara Degree College
+                                </a>
+                                <a href="#" class="float-right">January 2012 – December 2014</a>
+                                <p>Higher Secondary certificate</p>
+                            </li>
+                            <li>
+                                <a href="#">Machmail High School
+                                </a>
+                                <a href="#" class="float-right">1 April, 2014</a>
+                                <p>Secondary School Certificate</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <h1 class="text-center active">WORK EXPERIENCE</h1>
+                        <ul class="timeline">
+                            <li>
+                                <a target="_blank" href="#">Tech Cloud Ltd</a>
+                                <a href="#" class="float-right">September 2018 – December 2018</a>
+                                <p>Jr. Software Engineer <span class="float-right">(Intern)</span></p>
+
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">Xbit Studio Ltd.</a>
+                                <a href="#" class="float-right">January 2019 – Present</a>
+                                <p>Software Engineer <span class="float-right">(Full-Time)</span></p>
+
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">Fiverr.com</a>
+                                <a href="#" class="float-right">2017 – December 2019</a>
+                                <p>Wordpress Developer <span class="float-right">(Freelance)</span></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="mt-5 mb-5">
+            <div class="container">
+                <h1 class="text-center active">Portfolio</h1>
+
+                <div id="accordion">
+
+                    <div class="row">
+                        <ul class="list_portfolio">
+                        
+                            <li>
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Agency"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Agency
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Agency"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Movie Server
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Agency"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Ecoomerce
+                                </button>
+                            </li>
+                            <li>
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#Agency"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Portfolio
+                                </button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <div id="Agency" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4 img_portfolio">
+                                            <div class="text">
+                                                <p>Dentobit </p>
+                                                <p>
+                                                    <a href="#">Dentobit.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto" src="img/dentobit-ecom.png" alt="">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio">
+                                            <div class="text">
+                                                <p>Dentobit </p>
+                                                <p>
+                                                    <a href="#">Dentobit.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto" src="img/den.png" alt="">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto" src="img/sam.png" alt="">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto img-responsive  img-thumbnail" src="img/tajpata.png"
+                                                alt="tajpata">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto img-responsive  img-thumbnail" src="img/integra.png"
+                                                alt="tajpata">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto_admin img-responsive  img-thumbnail"
+                                                src="img/xplex.png" alt="tajpata">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto_admin img-responsive  img-thumbnail"
+                                                src="img/samdashboard.png" alt="tajpata">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>Sambd.com </p>
+                                                <p>
+                                                    <a href="#">sambd.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto_admin img-responsive  img-thumbnail"
+                                                src="img/xbit1.png" alt="tajpata">
+                                        </div>
+                                        <div class="col-md-4 img_portfolio mt-5">
+                                            <div class="text">
+                                                <p>contacts.dentobit.com </p>
+                                                <p>
+                                                    <a href="#">Contacts.dentobit.com</a>
+                                                </p>
+                                            </div>
+                                            <img class="img_auto_admin img-responsive  img-thumbnail"
+                                                src="img/contacts.png" alt="tajpata">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="Agency" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="clients">
+            <div class="container">
+                <h1 class="text-center active">Valuable Clients</h1>
+                <div class="row">
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="logo/dentobit.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="logo/integra.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="logo/sambd.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="logo/tajpata.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="logo/xtech.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="contact_us">
+            <div class="container">
+                <h1 class="text-center active">Contact Us</h1>
+                <div class="col-12">
+                    <div class="container-fomr">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer id="footer" class="mt-5">
+        <a class="navbar-brand" href="#"><span style="color:#fff">Nasim</span> <span style="color: #000;">Anjum</span></a>
+        <span class="float-right">
+            <a href="#">
+                <span class="footer_icon iconify mt-2 mr-5" data-icon="mdi:arrow-top"
+                                    data-inline="false"></span>
+            </a>
+        
+        </span>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var options = {
+            strings: [
+                '<span class="web_subtitle"> A Web <span class="active">Developer</span></span>',
+                '<span class="web_subtitle"> A Web <span class="active">Designer</span> </span>',
+                '<span class="web_subtitle"> A Full Stack <span class="active">Web Developer</span></span>',
+
+            ],
+            typeSpeed: 80,
+            backDelay: 3000,
+            backSpeed: 50,
+
+            loop: true,
+            loopCount: Infinity,
+        };
+        var typed = new Typed('#typed', options);
+
+        $(document).ready(function () {
+            if ($(window).width() > 992) {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 80) {
+                        $('.navbar').addClass("fixed-top bg-white");
+                        $('.navbar').removeClass('bg-light')
+
+
+                    } else {
+                        $('.navbar').removeClass("fixed-top bg-white");
+
+                        $('.navbar').addClass("bg-light");
+                        $('.navbar').removeClass('')
+                    }
+                });
+            }
+            new Swiper('.swiper-container', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                dots:true,
+                autoplay: {
+                    delay: 3500,
+                },
+                
+                slidesPerView:4,
+                spaceBetween: 10,
+                slidesPerGroup: 1,
+            })
+
+        })
+    </script>
+
 
 </body>
 

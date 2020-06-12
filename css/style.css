@@ -1,3 +1,321 @@
-p {
-    color: #343434;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  overflow-x: hidden;
+}
+
+.nav-link {
+  padding: 10px 15px !important;
+  font-weight: 500;
+}
+
+.active {
+  color: #1ab394 !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #1ab394 !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.name_title {
+  font-weight: 500;
+}
+
+.web_subtitle {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.main_image {
+  height: 70%;
+  position: relative;
+  left: 20%;
+}
+
+#intro,
+#education_experience {
+  background-color: rgb(248, 249, 250) !important;
+}
+
+.intro_info {
+  margin-top: 16%;
+}
+
+.btn-cv {
+  background-color: #1ab394 !important;
+  color: #fff;
+}
+
+.about_title {
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center !important;
+}
+
+.social-block {
+  list-style: none;
+  /* border:1px solid #1ab394   */
+}
+
+.social-block li {
+  float: left;
+  position: relative;
+  right: 9%;
+  padding: 5px 7px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 30%;
+  background-color: #1ab394;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.iconify {
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.icon-social {
+  color: #1ab394;
+  font-size: 40px;
+}
+
+.section_divider {
+  width: 160px;
+  height: 6px;
+  text-align: center;
+  position: relative;
+  left: 42%;
+  background-color: #1ab394;
+}
+
+.about_box {
+  max-width: 47% !important;
+  width: 47% !important;
+  margin: 4px;
+  /* border: 3px dashed #1ab394; */
+  padding: 20px 10px;
+  -webkit-box-shadow: inset 0px 1px 24px 0px rgba(26, 179, 148, 1);
+  -moz-box-shadow: inset 0px 1px 24px 0px rgb(235, 241, 240);
+  box-shadow: inset 0px 1px 10px 0px rgb(26, 179, 148);
+}
+
+.sub-title {
+  font-size: 20px;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.fixed-top {
+  animation: slide-down 0.7s;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #1ab394;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.timeline > li {
+  list-style: none;
+}
+
+.timeline > li a {
+  color: #1ab394 !important;
+  text-decoration: none;
+}
+
+#skills h1 {
+  font-weight: 800;
+}
+
+/* Animation */
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
+}
+.list_portfolio {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+.list_portfolio li {
+  float: left;
+  background-color: #1ab394;
+  margin: 5px;
+  display: block;
+  border: 1px solid #1ab394;
+}
+.list_portfolio li button {
+  color: #fff !important;
+}
+
+.img_portfolio{
+  height: 450px;
+}
+
+.img_auto {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.img_auto_admin {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 0;
+  height: 0;
+  background: rgba(26, 179, 148, 0.4);
+  transition: all .5s ease;
+  opacity: 0;
+}
+
+.img_portfolio:hover .text{
+  width: 93%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(.9s);
+}
+.text a {
+  position: relative;
+  text-align: center;
+  color: #fff !important;
+  text-decoration: none;
+}
+.text p {
+  position: relative;
+  padding: 10px;
+  bottom: -250px;
+  text-align: center;
+  color: #fff !important;
+  background: #1ab394;
+  margin-bottom: 0 !important;
+}
+
+
+#clients{
+  background: rgb(248, 249, 250) !important
+}
+#clients .container h1{
+  color: #1ab394 !important;
+  padding: 20px;
+}
+
+.swiper-container {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide img {
+  width: 200px;
+  height: 50px;
+
+}
+
+#footer{
+  background: #1ab394;
+}
+.footer_icon{
+  font-size: 40px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-form {
+  border-radius: 5px;
+  padding: 20px;
 }
